@@ -7,7 +7,7 @@ $message = null;
 
 if ($error) {
    $message = 'You have encountered an error';
-   // Original variable type of null now cast to a string
+   // &message değişkeninin type'ı null'dı ancak şimdi stringe çevirdik
 }
 
-echo $message; // 'You have encountered an error'
+echo $message; // Burada bir hatamız oluşabilir
